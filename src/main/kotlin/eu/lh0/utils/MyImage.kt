@@ -1,4 +1,8 @@
 package eu.lh0.utils
 
-class MyImage {
-}
+import java.awt.image.BufferedImage
+
+class MyImage(
+    val image: BufferedImage,
+    var width: Int,
+    var height: Int)
